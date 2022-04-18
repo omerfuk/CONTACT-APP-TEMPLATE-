@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0E628C280DA30C001AA8AA /* KisiHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E628B280DA30C001AA8AA /* KisiHucreTableViewCell.swift */; };
+		DE0E628E280DA445001AA8AA /* KisiEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E628D280DA445001AA8AA /* KisiEkleViewController.swift */; };
+		DE0E6290280DA450001AA8AA /* KisiGuncelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E628F280DA450001AA8AA /* KisiGuncelleViewController.swift */; };
+		DE0E6292280DA45A001AA8AA /* KisiDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E6291280DA45A001AA8AA /* KisiDetayViewController.swift */; };
 		DE7738C7280D9E7400D48E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7738C6280D9E7400D48E46 /* AppDelegate.swift */; };
 		DE7738C9280D9E7400D48E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7738C8280D9E7400D48E46 /* SceneDelegate.swift */; };
 		DE7738CB280D9E7400D48E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7738CA280D9E7400D48E46 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0E628B280DA30C001AA8AA /* KisiHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiHucreTableViewCell.swift; sourceTree = "<group>"; };
+		DE0E628D280DA445001AA8AA /* KisiEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiEkleViewController.swift; sourceTree = "<group>"; };
+		DE0E628F280DA450001AA8AA /* KisiGuncelleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiGuncelleViewController.swift; sourceTree = "<group>"; };
+		DE0E6291280DA45A001AA8AA /* KisiDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewController.swift; sourceTree = "<group>"; };
 		DE7738C3280D9E7400D48E46 /* Contacts-App With CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts-App With CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7738C6280D9E7400D48E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE7738C8280D9E7400D48E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +112,10 @@
 				DE7738C6280D9E7400D48E46 /* AppDelegate.swift */,
 				DE7738C8280D9E7400D48E46 /* SceneDelegate.swift */,
 				DE7738CA280D9E7400D48E46 /* ViewController.swift */,
+				DE0E628B280DA30C001AA8AA /* KisiHucreTableViewCell.swift */,
+				DE0E628D280DA445001AA8AA /* KisiEkleViewController.swift */,
+				DE0E628F280DA450001AA8AA /* KisiGuncelleViewController.swift */,
+				DE0E6291280DA45A001AA8AA /* KisiDetayViewController.swift */,
 				DE7738CC280D9E7400D48E46 /* Main.storyboard */,
 				DE7738D2280D9E7600D48E46 /* Assets.xcassets */,
 				DE7738D4280D9E7600D48E46 /* LaunchScreen.storyboard */,
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7738CB280D9E7400D48E46 /* ViewController.swift in Sources */,
+				DE0E6290280DA450001AA8AA /* KisiGuncelleViewController.swift in Sources */,
+				DE0E628E280DA445001AA8AA /* KisiEkleViewController.swift in Sources */,
 				DE7738C7280D9E7400D48E46 /* AppDelegate.swift in Sources */,
 				DE7738C9280D9E7400D48E46 /* SceneDelegate.swift in Sources */,
 				DE7738D1280D9E7400D48E46 /* Contacts_App_With_CoreData.xcdatamodeld in Sources */,
+				DE0E6292280DA45A001AA8AA /* KisiDetayViewController.swift in Sources */,
+				DE0E628C280DA30C001AA8AA /* KisiHucreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
