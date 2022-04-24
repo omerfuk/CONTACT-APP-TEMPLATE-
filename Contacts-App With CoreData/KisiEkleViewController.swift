@@ -18,6 +18,11 @@ class KisiEkleViewController: UIViewController {
     }
     
     @IBAction func ekle(_ sender: Any) {
+        if let ad = kisiAdTextField.text,let tel = kisiTelTextField.text {
+            
+            Kisilerdao().kisiEkle(kisi_ad: ad, kisi_tel: tel)
+            self.navigationController?.popToRootViewController(animated: true)
+        }
     }
     
     /*
